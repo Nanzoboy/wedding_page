@@ -7,6 +7,7 @@
     text-decoration: none;
     outline: none;
     font-family: "Urbanist", sans-serif;
+    overflow: hidden;
 }
 
 html {
@@ -249,10 +250,24 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 @media (max-width: 450px) {
     .banner h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .banner h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .navbar {
+        padding: 0 2rem;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        height: 13rem;
+    }
+    .navigation a {
+        font-size: 1.1rem;
+        margin-right: 0;
     }
 }
