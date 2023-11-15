@@ -246,3 +246,13 @@ span.swiper-pagination-bullet:nth-child(4) {
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     border: 0.2rem solid #fff;
 }
+
+@media (max-width: 450px) {
+    .banner h3 {
+        font-size: 1rem;
+    }
+    
+    .banner h1 {
+        font-size: 4rem;
+    }
+}
